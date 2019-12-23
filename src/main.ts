@@ -8,6 +8,6 @@ import { AppModule } from './app.module';
 const bootstrap = async () => {
   const app = await NestFactory.create<NestFastifyApplication>(AppModule, new FastifyAdapter())
   app.use('/', serveStatic(path.join(__dirname, '../public')))
-  await app.listen(9300);
+  await app.listen(9300, '127.0.0.1');
 }
 bootstrap();
