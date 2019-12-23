@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx nest build",
     "start:dev": "npx nest start --watch",
-    "start:prod": "node dist/main"
+    "start:prod": "npm run build && node dist/main"
   },
   "author": "",
   "license": "ISC",
