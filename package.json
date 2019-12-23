@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "nest build",
-    "start:dev": "nest start --watch",
+    "build": "npx nest build",
+    "start:dev": "npx nest start --watch",
     "start:prod": "node dist/main"
   },
   "author": "",
