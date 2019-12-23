@@ -12,18 +12,20 @@
 }
 
 #output {
+  padding: 0px;
+  resize: none;
+  height: 100%;
   width: 100%;
-  overflow-wrap: break-word;
   background: none;
   border: none;
   outline: none;
   color: rgb(151, 151, 151);
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 100%;
 }
 
 .board {
+  max-height: 100%;
   background-color: rgb(65, 65, 65);
   box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
 }
