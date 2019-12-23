@@ -1,6 +1,6 @@
 import { Controller, Logger, Post, Body } from '@nestjs/common';
 import { AppService } from './app.service';
-import convert from '@yeongjet/joi-to-json-schema'
+import { convert } from '@yeongjet/joi-to-json-schema'
 import * as Joi from '@hapi/joi'
 
 const { alternatives, any, array, binary, boolean, link, number, string, symbol, object, date } = Joi.types();
