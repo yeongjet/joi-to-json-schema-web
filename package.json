@@ -16,7 +16,7 @@
     "@nestjs/core": "^6.10.12",
     "@nestjs/platform-express": "^6.10.12",
     "@nestjs/platform-fastify": "^6.10.12",
-    "@yeongjet/joi-to-json-schema": "^1.0.0",
+    "@yeongjet/joi-to-json-schema": "^1.0.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3"
   },
