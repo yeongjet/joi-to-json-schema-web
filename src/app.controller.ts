@@ -13,7 +13,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Post()
-  convertToJSONSchema(@Body() body: { input: string }): { code: number, message: string, data?: Object } {
+  convertToJSONSchema(@Body() body: { input: string, isSnakecase: boolean }): { code: number, message: string, data?: Object } {
     try {
       Joi.version // 此处要使用Joi这个变量，否则Joi不会引入
       const joiSchema = eval(body.input)

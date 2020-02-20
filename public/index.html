@@ -12,7 +12,17 @@
 </head>
 <body style="height: 100vh; background-color: rgb(44, 44, 44);">
   <div class="container" style="height: 100vh;">
-    <div class="row"  style="height: 100vh;">
+    <div class="header" style="height: 7vh; text-align: center; line-height: 50px; color: rgb(151, 151, 151);">
+      Joi to JSON-Schema
+    </div>
+    <div style="height: 7vh; margin-top: -7vh; display: none;">
+      <div style="height: 7vh;  float: right; line-height: 7vh;">
+        <span><input id="snakecase" type="checkbox" checked="true"/></span>
+        <span style="font-size: small; color: rgb(151, 151, 151);">字段名转下划线</span>
+      </div>
+      <!-- <button style="width: 60px; height: 30px; font-size: small; float: right;">字段转下划线</button> -->
+    </div>
+    <div class="row"  style="height: 93vh;">
         <div class="col-xs-6 col-sm-6 board">
             <textarea id="editor"></textarea>
         </div>
